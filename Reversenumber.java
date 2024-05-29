@@ -13,7 +13,7 @@ class reverseno {
 	System.out.println(reverse);
 	if(reverse==copy)
 	{
-		System.out.println("is a palindrome");
+		System.out.println("palindrome");
 	}
 }
 }
