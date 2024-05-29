@@ -1,0 +1,28 @@
+class Primeno {
+
+public static void main(String[] args) {
+	prime(7);
+}
+static void prime(int no )
+{
+	boolean flag=true;
+	for(int i=2;i<no;i++)
+	{
+		if(no%i==0)
+		{
+			flag=false;
+			break;
+		}
+	}
+		if(flag)
+		{
+			System.out.println(no+ " is a prime no");
+		}
+		else{
+			System.out.println("is not a prime no");
+            }
+	 
+	}
+}
+
+
